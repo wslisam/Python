@@ -1,0 +1,7 @@
+{
+    "python.pythonPath": "/Users/wsli1998/Documents/Python/.venv/bin/python3",
+    // "python.autoComplete.extraPaths": [
+    
+    // ],
+    "python.linting.pylintArgs": ["--generate-members"]
+}
