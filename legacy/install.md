@@ -95,3 +95,68 @@ Successfully installed numpy-1.19.1 opencv-python-4.4.0.40
 WARNING: You are using pip version 19.2.3, however version 20.2.1 is available.
 You should consider upgrading via the 'pip install --upgrade pip' command.
 ```
+
+
+```
+brew upgrade python3                                                     737
+Updating Homebrew...
+==> Upgrading 1 outdated package:
+python3 3.8.3_2 -> 3.8.5
+==> Upgrading python3 3.8.3_2 -> 3.8.5
+==> Downloading https://homebrew.bintray.com/bottles/gdbm-1.18.1_1.catalina.bott
+Already downloaded: /Users/wsli1998/Library/Caches/Homebrew/downloads/21bd17c428e48bcdca0a388899e5f618c52ea2f80af79fc5bf25f28cd59ca2b2--gdbm-1.18.1_1.catalina.bottle.tar.gz
+==> Downloading https://homebrew.bintray.com/bottles/sqlite-3.33.0.catalina.bott
+Already downloaded: /Users/wsli1998/Library/Caches/Homebrew/downloads/6802724262549ff9d8bb8483907888d3d4f59b87c720f6e595081ef217c6eb6c--sqlite-3.33.0.catalina.bottle.tar.gz
+==> Downloading https://homebrew.bintray.com/bottles/python%403.8-3.8.5.catalina
+Already downloaded: /Users/wsli1998/Library/Caches/Homebrew/downloads/9dd7cd94f1e3f75a7f2fe63c7333d9de7e8241f212eeaa1e774c45fff2da63f8--python@3.8-3.8.5.catalina.bottle.tar.gz
+==> Installing dependencies for python@3.8: gdbm and sqlite
+==> Installing python@3.8 dependency: gdbm
+==> Pouring gdbm-1.18.1_1.catalina.bottle.tar.gz
+🍺  /usr/local/Cellar/gdbm/1.18.1_1: 25 files, 641KB
+==> Installing python@3.8 dependency: sqlite
+==> Pouring sqlite-3.33.0.catalina.bottle.tar.gz
+==> Caveats
+sqlite is keg-only, which means it was not symlinked into /usr/local,
+because macOS already provides this software and installing another version in
+parallel can cause all kinds of trouble.
+
+If you need to have sqlite first in your PATH run:
+  echo 'export PATH="/usr/local/opt/sqlite/bin:$PATH"' >> ~/.zshrc
+
+For compilers to find sqlite you may need to set:
+  export LDFLAGS="-L/usr/local/opt/sqlite/lib"
+  export CPPFLAGS="-I/usr/local/opt/sqlite/include"
+
+For pkg-config to find sqlite you may need to set:
+  export PKG_CONFIG_PATH="/usr/local/opt/sqlite/lib/pkgconfig"
+
+==> Summary
+🍺  /usr/local/Cellar/sqlite/3.33.0: 11 files, 4MB
+==> Installing python@3.8
+==> Pouring python@3.8-3.8.5.catalina.bottle.tar.gz
+==> /usr/local/Cellar/python@3.8/3.8.5/bin/python3 -s setup.py --no-user-cfg ins
+==> /usr/local/Cellar/python@3.8/3.8.5/bin/python3 -s setup.py --no-user-cfg ins
+==> /usr/local/Cellar/python@3.8/3.8.5/bin/python3 -s setup.py --no-user-cfg ins
+==> Caveats
+Python has been installed as
+  /usr/local/bin/python3
+
+Unversioned symlinks `python`, `python-config`, `pip` etc. pointing to
+`python3`, `python3-config`, `pip3` etc., respectively, have been installed into
+  /usr/local/opt/python@3.8/libexec/bin
+
+You can install Python packages with
+  pip3 install <package>
+They will install into the site-package directory
+  /usr/local/lib/python3.8/site-packages
+
+See: https://docs.brew.sh/Homebrew-and-Python
+==> Summary
+🍺  /usr/local/Cellar/python@3.8/3.8.5: 4,341 files, 67.3MB
+==> `brew cleanup` has not been run in 30 days, running now...
+Removing: /usr/local/Cellar/gdbm/1.18.1... (20 files, 602.8KB)
+Removing: /usr/local/Cellar/python@3.8/3.8.3... (4,125 files, 63MB)
+Removing: /usr/local/Cellar/python@3.8/3.8.3_2... (4,247 files, 65.3MB)
+Removing: /usr/local/Cellar/sqlite/3.32.3... (11 files, 4MB)
+Error: Permission denied @ apply2files - /usr/local/lib/node_modules/yo/node_modules/extglob/lib/.DS_Store
+```

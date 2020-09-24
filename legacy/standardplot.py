@@ -8,7 +8,7 @@ plt.plot(x, np.sin(x))       # Plot the sine of each x point
 plt.show()                   # Display the plot
 
 # open ~/.zshrc
-# source .venv/bin/activate
+# source .venv/bin/activatopen ~/.zshrce
 # deactivate
 
 

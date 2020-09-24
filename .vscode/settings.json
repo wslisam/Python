@@ -1,5 +1,5 @@
 {
-    "python.pythonPath": "/Users/wsli1998/Documents/Python/.venv/bin/python3",
+    "python.pythonPath": ".venv/bin/python",
     // "python.autoComplete.extraPaths": [
     
     // ],
