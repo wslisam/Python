@@ -160,3 +160,69 @@ Removing: /usr/local/Cellar/python@3.8/3.8.3_2... (4,247 files, 65.3MB)
 Removing: /usr/local/Cellar/sqlite/3.32.3... (11 files, 4MB)
 Error: Permission denied @ apply2files - /usr/local/lib/node_modules/yo/node_modules/extglob/lib/.DS_Store
 ```
+
+
+```
+brew install tcl-tk                                                                                                                                              855
+Updating Homebrew...
+^CWarning: You are using macOS 11.0.
+We do not provide support for this released but not yet supported version.
+You will encounter build failures with some formulae.
+Please create pull requests instead of asking for help on Homebrew's GitHub,
+Twitter or any other official channels. You are responsible for resolving
+any issues you experience while you are running this
+released but not yet supported version.
+
+==> Downloading https://homebrew.bintray.com/bottles/openssl%401.1-1.1.1h.big_sur.bottle.tar.gz
+==> Downloading from https://d29vzk4ow07wi7.cloudfront.net/81fe98e819f1d3554d98cbf615c848cc1837c65b6026cb561b0d58531b0ab65e?response-content-disposition=attachment%3Bfi
+######################################################################## 100.0%
+==> Downloading https://homebrew.bintray.com/bottles/tcl-tk-8.6.10.big_sur.bottle.1.tar.gz
+==> Downloading from https://d29vzk4ow07wi7.cloudfront.net/b7c942f7fc15b6a402bf4d071dcea29682db9364d47ca34fcb3b7cd72c254968?response-content-disposition=attachment%3Bfi
+######################################################################## 100.0%
+==> Installing dependencies for tcl-tk: openssl@1.1
+==> Installing tcl-tk dependency: openssl@1.1
+==> Pouring openssl@1.1-1.1.1h.big_sur.bottle.tar.gz
+==> Caveats
+A CA file has been bootstrapped using certificates from the system
+keychain. To add additional certificates, place .pem files in
+  /usr/local/etc/openssl@1.1/certs
+
+and run
+  /usr/local/opt/openssl@1.1/bin/c_rehash
+
+openssl@1.1 is keg-only, which means it was not symlinked into /usr/local,
+because macOS provides LibreSSL.
+
+If you need to have openssl@1.1 first in your PATH run:
+  echo 'export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"' >> ~/.zshrc
+
+For compilers to find openssl@1.1 you may need to set:
+  export LDFLAGS="-L/usr/local/opt/openssl@1.1/lib"
+  export CPPFLAGS="-I/usr/local/opt/openssl@1.1/include"
+
+For pkg-config to find openssl@1.1 you may need to set:
+  export PKG_CONFIG_PATH="/usr/local/opt/openssl@1.1/lib/pkgconfig"
+
+==> Summary
+🍺  /usr/local/Cellar/openssl@1.1/1.1.1h: 8,067 files, 18.5MB
+==> Installing tcl-tk
+==> Pouring tcl-tk-8.6.10.big_sur.bottle.1.tar.gz
+==> Caveats
+tcl-tk is keg-only, which means it was not symlinked into /usr/local,
+because macOS already provides this software and installing another version in
+parallel can cause all kinds of trouble.
+
+If you need to have tcl-tk first in your PATH run:
+  echo 'export PATH="/usr/local/opt/tcl-tk/bin:$PATH"' >> ~/.zshrc
+
+For compilers to find tcl-tk you may need to set:
+  export LDFLAGS="-L/usr/local/opt/tcl-tk/lib"
+  export CPPFLAGS="-I/usr/local/opt/tcl-tk/include"
+
+For pkg-config to find tcl-tk you may need to set:
+  export PKG_CONFIG_PATH="/usr/local/opt/tcl-tk/lib/pkgconfig"
+
+==> Summary
+🍺  /usr/local/Cellar/tcl-tk/8.6.10: 3,037 files, 51.4MB
+==> `brew cleanup` has not been run in 30 days, running now...
+```
